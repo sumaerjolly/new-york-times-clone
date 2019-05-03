@@ -176,6 +176,22 @@ a:link {
     padding: 4px;
 }
 
+#nocircle1{
+    border: 0px;
+    border-radius: 0;
+    background-color: white;
+}
+
+#nocircle2{
+    border: 0px;
+    border-radius: 0;
+    background-color: white;
+}
+
+}
+
+
+
 
 
 
