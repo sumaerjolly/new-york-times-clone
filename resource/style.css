@@ -127,14 +127,17 @@ a:link {
 }
 .left-column{
     flex: 1;
-    /* background-color: red; */
+    background-color: red;
   
     margin-right:20px;
 }
 .center-column{
     flex: 2;
+   
+    
     /* background-color: blue; */
     
+   
     margin-right:20px;
 }
 
@@ -146,8 +149,35 @@ a:link {
 
 .center-column h1 {
     font-weight: bold;
+    text-align: left;
     
 }
 .sharing-icons{
+    /* background-color:purple; */
     display: flex;
+    margin-top: 10px;
+    
+    
 }
+
+
+#test{
+    padding-left: 280px;
+}
+
+.sharing-icons a {
+    padding: 0 0 0 10px;
+}
+
+.sharing-icons img{
+    border: solid white 1px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+}
+
+
+
+
+
+
