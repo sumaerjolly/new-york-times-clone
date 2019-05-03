@@ -118,3 +118,36 @@ a:link {
     color: gray;
     line-height: 1.2;
 }
+
+.main-content{
+    display: flex;
+    max-width: 100%;
+    margin: 40px;
+    
+}
+.left-column{
+    flex: 1;
+    /* background-color: red; */
+  
+    margin-right:20px;
+}
+.center-column{
+    flex: 2;
+    /* background-color: blue; */
+    
+    margin-right:20px;
+}
+
+.right-column{
+    flex:1;
+    /* background-color: yellow; */
+    
+}
+
+.center-column h1 {
+    font-weight: bold;
+    
+}
+.sharing-icons{
+    display: flex;
+}
