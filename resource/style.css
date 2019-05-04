@@ -285,9 +285,67 @@ a:link {
 .image-divide .smaller-image{
     padding-top: 3px;
 }
+.center-image{
+    max-width: 100%;
+}
+/* .center-column iframe{
+    display: block;
+    margin: 0 auto;
+} */
+.video-div .video-text{
+    font-size: 16px;
+    color: rgba(109, 107, 107, 1);
+    padding: 0 0 0 0;
+}
 
+.video-div .video-text-2 {
+    font-size: 12px;
+    color: gray;
+    
+}
+.video-div h1{
+    font-size: 20px;
+    padding-bottom: 20px
+}
+.video-text-2 a {
+   color: gray;
+}
+.video-text-2 a:hover {
+    text-decoration: underline;
+}
+.test1 img{
+    border: solid white 1px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+    
+}
+.footer-content .test .social-media-icon{
+    padding-left: 15px;
+}
+.test1{
+    display: flex;
+}
+.comment-button{
+    flex: 1;
+    
+}
+#comment-button-2{
+    padding: 8px 70px 8px 70px;
+    color: white;
+    background: rgb(98, 136, 165);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    flex-wrap: wrap;
 
-
-
-
-
+}
+.main-social{
+    flex: 1;
+    text-align: right;
+   
+}
+.main-social a {
+    padding-left: 15px;
+}
