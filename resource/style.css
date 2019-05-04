@@ -8,13 +8,10 @@ body{
     display: flex;
     padding: 5px 10px 2px 20px;
     border-bottom: 1px solid rgb(226, 226, 226)
-
 }
 
 .header-section img{
     max-width: 100%;
-   
-    
 }
 
 a:link {
@@ -24,15 +21,11 @@ a:link {
 #menu{
     padding: 10px 20px 0 0;
     flex-wrap: wrap;
-    
-    
-
 }
 
 #search{
     padding: 10px 20px 0 10px;
     flex-wrap: wrap;
-
 }
 
 #type{
@@ -41,8 +34,6 @@ a:link {
     font-weight: bold;
     color: black;
     flex-wrap: wrap;
-
-
 }
 
 #newyork{
@@ -60,8 +51,6 @@ a:link {
     font-weight: bold;
     display: inline;
     flex-wrap: wrap;
-    
-
 }
 
 #login{
@@ -133,12 +122,9 @@ a:link {
 }
 .center-column{
     flex: 2;
-   
-    
     /* background-color: blue; */
-    
-   
     margin-right:20px;
+   
 }
 
 .right-column{
@@ -151,18 +137,21 @@ a:link {
     font-weight: bold;
     text-align: left;
     
+    
 }
 .sharing-icons{
     /* background-color:purple; */
     display: flex;
     margin-top: 10px;
-    
+    max-width: 100%;
     
 }
 
-
-#test{
-    padding-left: 280px;
+.test{
+   text-align: right;
+   flex: 1;
+   padding-right: 10px;
+  
 }
 
 .sharing-icons a {
@@ -187,7 +176,21 @@ a:link {
     border-radius: 0;
     background-color: white;
 }
+.publish-date {
+    padding-top: 5px;
 
+}
+.blog-text{
+    padding-top: 20px;
+
+}
+.blog-text p{
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.blog-text strong {
+    font-weight: bold;  
 }
 
 
