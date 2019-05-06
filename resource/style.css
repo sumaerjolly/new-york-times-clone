@@ -452,10 +452,10 @@ button:hover{
 .lower-part{
     display: flex;
     max-width: 100%;
-    margin: 40px;
-    height: 500px;;
-    padding: 30px 0 0 0;
-    
+    margin: 40px 40px 0 40px;
+    padding: 30px 0 40px 0;
+    border-bottom: 5px solid lightgrey;
+    border-style: double;  
 }
 .recommended{
     flex: 2.5;
@@ -567,6 +567,65 @@ button:hover{
     color: blue;
 
 }
+.main-footer{
+    max-width: 100%;
+    margin: 15px 40px 40px 40px;
 
-
-
+}
+.first-lower-footer{
+    flex: 4;
+}
+.second-lower-footer{
+    flex: 1;
+    background-color: blue;
+}
+footer img{
+    margin: 5px 0 0 40px;
+}
+.lower-1{
+    width: 16%;
+    
+}
+.lower-2{
+    width: 16%;
+   
+}
+.lower-3{
+    width: 16%;
+   
+}
+.lower-4{
+    width: 16%;
+   
+}
+.lower-5{
+    width: 16%;
+    
+}
+@media (min-width: 900px){
+    .main-footer{
+       display:flex;
+       justify-content: space-between;
+   }
+}
+@media (min-width: 900px){
+    .first-lower-footer{
+       display:flex;
+       justify-content: space-between;
+   }
+}
+.first-lower-footer a{
+    display: block;
+    line-height: 2;
+    color: black;
+    font-size: 14px;
+}
+.first-lower-footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.first-lower-footer p{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
