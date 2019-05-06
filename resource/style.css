@@ -7,7 +7,11 @@ body{
     width: 100%;
     display: flex;
     padding: 5px 10px 2px 20px;
-    border-bottom: 1px solid rgb(226, 226, 226)
+    border-bottom: 1px solid rgb(226, 226, 226);
+    position: fixed;
+    background-color: white;
+    top: 0px;
+
 }
 
 .header-section img{
@@ -80,6 +84,7 @@ a:link {
     width: 100%;
     display: block;  
     clear: both;
+    margin-top: 80px;
     
 }
 .main-image{
