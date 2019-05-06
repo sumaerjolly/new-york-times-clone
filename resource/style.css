@@ -338,7 +338,7 @@ button:hover{
     
 }
 #comment-button-2{
-    padding: 8px 70px 8px 70px;
+    padding: 8px 50px 8px 50px;
     color: white;
     background: rgb(98, 136, 165);
     border-radius: 6px;
@@ -437,7 +437,7 @@ button:hover{
     padding-bottom: 10px;
 }
 #sign-up-button{
-    padding: 8px 60px 8px 60px;
+    padding: 8px 50px 8px 50px;
     color: white;
     background: rgb(98, 136, 165);
     border-radius: 6px;
