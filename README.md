@@ -1,1 +1,1 @@
-# new-york-times-clone
+#collaborative project to create a New York Times Clone 
